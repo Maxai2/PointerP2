@@ -63,7 +63,7 @@ void avarageEvenOdd(int **arr, int fSize, int sSize, int &avarage, int &even, in
 		for (int j = 0; j < sSize; j++)
 		{
 			avarage += arr[i][j];
-			
+
 			if (arr[i][j] % 2 == 0)
 				even++;
 			else
@@ -71,4 +71,14 @@ void avarageEvenOdd(int **arr, int fSize, int sSize, int &avarage, int &even, in
 		}
 	}
 	avarage /= (fSize * sSize);
+}
+
+void initialArr(int length)
+{
+	byte *arr = new byte[length];
+}
+
+void sortSize(byte size, short &vShort, int &vInt, double &vDouble)
+{
+
 }
